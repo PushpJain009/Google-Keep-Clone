@@ -1,0 +1,255 @@
+.navbar {
+    border: none;
+    border-bottom: 1px solid #bdbec0;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #73767b;
+    margin-left: 5px;
+}
+
+.navbar-brand:hover{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #595d61;
+    margin-left: 5px;
+}
+
+.form-control {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.btn-search {
+    border-radius: 50px;
+    padding: 5px 20px;
+    background-color: #facc31;
+    border-color: #facc31;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.sidebarMenuInnerIcon {
+    float: left;
+    padding: 6px;
+}
+
+.sidebarMenuInnerIcon li {
+    list-style: none;
+    color: rgba(79, 76, 76, 0.5);
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.sidebarMenuInnerIcon li:hover {
+    background-color: #ffe46cc7;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.no-note {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.no-note-icon {
+    opacity: 0.2;
+    margin-bottom: 25px;
+}
+
+.no-note h5 {
+    opacity: 0.6;
+    cursor: default;
+}
+
+
+.add-note {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.write-note {
+    outline: none;
+    padding: 7px 10px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 2px 2px #afada9;
+    border-color: #eaebeb;
+    font-size: large;
+    width: 560px;
+}
+
+.new-textarea {
+    outline: none;
+    margin-bottom: 8px;
+    padding: 7px 10px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 2px 2px #afada9;
+    border-color: #eaebeb;
+    font-size: large;
+    width: 560px;
+}
+
+.add-btn {
+    background-color: #f8b129;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    border-color: #f8b129;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    text-transform: capitalize;
+    text-align: left;
+    scroll-behavior: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-text {
+    text-align: left;
+    scroll-behavior: none;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px #686664;
+    transition: 0.3s;
+}
+
+.card:hover h5 {
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover p {
+    font-size: 15px;
+    word-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-delIcon {
+    background-color: rgb(235, 37, 37);
+    border-radius: 50px;
+    padding: 6px;
+    outline: none;
+    color: #fff;
+    border-color: rgb(235, 37, 37);
+    float: right;
+    margin-bottom: -30px;
+}
+
+.btn-delIcon:hover {
+    color: rgb(235, 37, 37);
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 6px;
+    outline: none;
+    border-color: rgb(235, 37, 37);
+    float: right;
+    margin-bottom: -30px;
+    transition: 0.5s;
+}
+
+.footer {
+    font-size: 12px;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 70px;
+}
+
+.lightbulb{
+    background-color: #ffe46cc7;
+    border-radius: 50%;
+}
+
+
+
+@media (min-width:300px) and (max-width: 990px) {
+
+    .write-note {
+        outline: none;
+        padding: 7px 10px;
+        text-align: left;
+        border-radius: 8px;
+        box-shadow: 2px 2px #afada9;
+        border-color: #eaebeb;
+        font-size: large;
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    .new-textarea {
+        outline: none;
+        margin-bottom: 8px;
+        padding: 7px 10px;
+        text-align: left;
+        border-radius: 8px;
+        box-shadow: 2px 2px #afada9;
+        border-color: #eaebeb;
+        font-size: large;
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    .add-btn {
+        background-color: #f8b129;
+        color: #fff;
+        padding: 0px;
+        border-radius: 50%;
+        border-color: #f8b129;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .form-control {
+        margin-left: 40px
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+        background-color: #f8f9fa;
+    }
+
+    .card:hover h5 {
+        font-size: 13px;
+        text-decoration: underline;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card:hover p {
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .btn-delIcon {
+        background-color: rgb(235, 37, 37);
+        border-radius: 50px;
+        padding: 3px;
+        outline: none;
+        color: #fff;
+        border-color: rgb(235, 37, 37);
+        float: right;
+        margin-bottom: -30px;
+    }
+}
