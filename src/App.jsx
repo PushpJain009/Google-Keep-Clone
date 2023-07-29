@@ -19,16 +19,16 @@ const App = () => {
     }
     // add new text area for heading end
 
-    // ADDING TEXT
-    const [Para, setPara] = useState("");
-    const contentText = (event) => {
-        setPara(event.target.value);
-    }
+        // ADDING TEXT
+        const [Para, setPara] = useState("");
+        const contentText = (event) => {
+            setPara(event.target.value);
+        }
 
-    // ADDING HEADING
-    const headingText = (event) => {
-        setHeading(event.target.value);
-    }
+        // ADDING HEADING
+        const headingText = (event) => {
+            setHeading(event.target.value);
+        }
     const [Heading, setHeading] = useState("");
     const [newHeading, setnewHeading] = useState([]);
 
